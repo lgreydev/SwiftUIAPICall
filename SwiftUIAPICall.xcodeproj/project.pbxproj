@@ -47,6 +47,8 @@
 		5E59AF352A6703A60003F701 = {
 			isa = PBXGroup;
 			children = (
+				5EC40E452A6732800064A35D /* README */,
+				5EC40E4A2A67335F0064A35D /* License */,
 				5EC40E472A6732BA0064A35D /* Images */,
 				5E59AF402A6703A60003F701 /* SwiftUIAPICall */,
 				5E59AF3F2A6703A60003F701 /* Products */,
@@ -71,8 +73,6 @@
 				5E59AF532A672B2C0003F701 /* URLImageView.swift */,
 				5E59AF452A6703A80003F701 /* Assets.xcassets */,
 				5E59AF472A6703A80003F701 /* Preview Content */,
-				5EC40E452A6732800064A35D /* README */,
-				5EC40E4A2A67335F0064A35D /* License */,
 			);
 			path = SwiftUIAPICall;
 			sourceTree = "<group>";

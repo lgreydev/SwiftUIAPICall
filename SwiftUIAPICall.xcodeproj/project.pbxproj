@@ -12,6 +12,7 @@
 		5E59AF462A6703A80003F701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59AF452A6703A80003F701 /* Assets.xcassets */; };
 		5E59AF492A6703A80003F701 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59AF482A6703A80003F701 /* Preview Assets.xcassets */; };
 		5E59AF502A67052D0003F701 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59AF4F2A67052D0003F701 /* ViewModel.swift */; };
+		5E59AF522A6707110003F701 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59AF512A6707110003F701 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5E59AF452A6703A80003F701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E59AF482A6703A80003F701 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E59AF4F2A67052D0003F701 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5E59AF512A6707110003F701 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				5E59AF412A6703A60003F701 /* SwiftUIAPICallApp.swift */,
 				5E59AF432A6703A60003F701 /* ContentView.swift */,
 				5E59AF4F2A67052D0003F701 /* ViewModel.swift */,
+				5E59AF512A6707110003F701 /* Course.swift */,
 				5E59AF452A6703A80003F701 /* Assets.xcassets */,
 				5E59AF472A6703A80003F701 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E59AF522A6707110003F701 /* Course.swift in Sources */,
 				5E59AF442A6703A60003F701 /* ContentView.swift in Sources */,
 				5E59AF502A67052D0003F701 /* ViewModel.swift in Sources */,
 				5E59AF422A6703A60003F701 /* SwiftUIAPICallApp.swift in Sources */,

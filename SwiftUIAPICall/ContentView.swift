@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-// API
-// https://iosacademy.io/api/v1/courses/index.php
-
-
 struct ContentView: View {
     var body: some View {
         NavigationView {

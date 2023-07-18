@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Course: Hashable, Codable {
     let name: String

@@ -7,15 +7,18 @@
 
 import SwiftUI
 
+// API
+// https://iosacademy.io/api/v1/courses/index.php
+
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                
+            }
+            .navigationTitle("Games News")
         }
-        .padding()
     }
 }
 
@@ -24,3 +27,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

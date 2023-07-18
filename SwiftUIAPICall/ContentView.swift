@@ -15,17 +15,15 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(viewModel.courses, id: \.self) { course in
-                    HStack {
-                        Image("")
-                            .frame(width: 100, height: 70)
-                            .background(Color.gray)
-                        
+                    HStack() {
+                        URLImageView(urlString: course.image)
+        
                         Text(course.name)
                     }
                     .padding()
                 }
             }
-            .navigationTitle("Games News")
+            .navigationTitle("Courses")
             .onAppear {
                 viewModel.fetch()
             }

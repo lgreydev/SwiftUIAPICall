@@ -7,10 +7,6 @@
 
 import Foundation
 
-// API
-// https://iosacademy.io/api/v1/courses/index.php
-
-
 class ViewModel: ObservableObject {
     
     @Published var courses: [Course] = []
@@ -37,7 +33,6 @@ class ViewModel: ObservableObject {
                 print(error)
             }
         }
-        
         task.resume()
     }
 }

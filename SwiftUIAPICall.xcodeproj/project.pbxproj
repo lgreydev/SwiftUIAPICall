@@ -14,9 +14,7 @@
 		5E59AF502A67052D0003F701 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59AF4F2A67052D0003F701 /* ViewModel.swift */; };
 		5E59AF522A6707110003F701 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59AF512A6707110003F701 /* Course.swift */; };
 		5E59AF542A672B2C0003F701 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59AF532A672B2C0003F701 /* URLImageView.swift */; };
-		5EC40E462A6732800064A35D /* README in Resources */ = {isa = PBXBuildFile; fileRef = 5EC40E452A6732800064A35D /* README */; };
 		5EC40E492A6732D10064A35D /* image001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EC40E482A6732D10064A35D /* image001.jpg */; };
-		5EC40E4B2A67335F0064A35D /* License in Resources */ = {isa = PBXBuildFile; fileRef = 5EC40E4A2A67335F0064A35D /* License */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +26,9 @@
 		5E59AF4F2A67052D0003F701 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5E59AF512A6707110003F701 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		5E59AF532A672B2C0003F701 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
-		5EC40E452A6732800064A35D /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		5EC40E482A6732D10064A35D /* image001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image001.jpg; sourceTree = "<group>"; };
-		5EC40E4A2A67335F0064A35D /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		5EC40E4C2A6733D20064A35D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5EC40E4D2A6733F30064A35D /* License.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +45,8 @@
 		5E59AF352A6703A60003F701 = {
 			isa = PBXGroup;
 			children = (
-				5EC40E452A6732800064A35D /* README */,
-				5EC40E4A2A67335F0064A35D /* License */,
+				5EC40E4D2A6733F30064A35D /* License.md */,
+				5EC40E4C2A6733D20064A35D /* README.md */,
 				5EC40E472A6732BA0064A35D /* Images */,
 				5E59AF402A6703A60003F701 /* SwiftUIAPICall */,
 				5E59AF3F2A6703A60003F701 /* Products */,
@@ -151,10 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC40E462A6732800064A35D /* README in Resources */,
 				5E59AF492A6703A80003F701 /* Preview Assets.xcassets in Resources */,
 				5E59AF462A6703A80003F701 /* Assets.xcassets in Resources */,
-				5EC40E4B2A67335F0064A35D /* License in Resources */,
 				5EC40E492A6732D10064A35D /* image001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

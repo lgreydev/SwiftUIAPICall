@@ -1,6 +1,6 @@
 #  SwiftUI Call API
 
-<img src="https://github.com/lgreydev/SwiftUIAPICall/blob/dev/Images/image001.jpg" width="300">
+<img src="https://github.com/lgreydev/SwiftUIAPICall/blob/main/Images/image001.jpg" width="300">
 
 ### 🛡️ License
 
